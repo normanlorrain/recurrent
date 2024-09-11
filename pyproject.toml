@@ -21,7 +21,7 @@ license = {file = "LICENSE"}
 authors = [
     {name = "Ken Van Haren",email = "kvh@science.io"}
 ]
-dependencies = ["parsedatetime"]
+dependencies = ["parsedatetime", "python-dateutil"]
 
 
 [project.urls]

@@ -5,27 +5,27 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name="recurrent"
-version="0.4.1"
-description="Natural language parsing and deparsing of recurring events"
+name = "recurrent"
+version = "0.4.1"
+description = "Natural language parsing and deparsing of recurring events"
 requires-python = ">=3.11"
-classifiers=[
-        "Programming Language :: Python :: 3",
-          "Natural Language :: English",
-          "Topic :: Text Processing :: Linguistic",
-          "License :: OSI Approved :: BSD License"
-      ]
-keywords=["calendar", "recurring", "date", "event", "NLP"]
-
-license={file = "LICENSE"}
-authors=[
-    {name="Ken Van Haren",email="kvh@science.io"}
-    ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Natural Language :: English",
+    "Topic :: Text Processing :: Linguistic",
+    "License :: OSI Approved :: BSD License"
+]
+keywords = ["calendar", "recurring", "date", "event", "NLP"]
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Ken Van Haren",email = "kvh@science.io"}
+]
 dependencies = ["parsedatetime"]
 
 
 [project.urls]
-Homepage ="http://github.com/kvh/recurrent"
+Homepage = "http://github.com/kvh/recurrent"
 
 
 
